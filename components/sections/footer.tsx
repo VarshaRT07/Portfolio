@@ -1,16 +1,16 @@
-'use client'
+"use client";
 
-import React from "react"
+import React from "react";
 
-import type { Profile } from '@/types'
-import { motion } from 'framer-motion'
+import type { Profile } from "@/types";
+import { motion } from "framer-motion";
 
 interface FooterProps {
-  profile: Profile
+  profile: Profile;
 }
 
 export const Footer: React.FC<FooterProps> = ({ profile }) => {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="border-t border-muted bg-background py-12">
@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
         >
           {/* Brand */}
           <div className="text-center sm:text-left">
-            <h3 className="font-bold text-foreground">Alex Chen</h3>
+            <h3 className="font-bold text-foreground">Varsha Nandhini</h3>
             <p className="text-sm text-muted-foreground">
               Full Stack Engineer building modern web experiences
             </p>
@@ -33,9 +33,9 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
           {/* Quick links */}
           <div className="flex gap-6">
             {[
-              { href: '#about', label: 'About' },
-              { href: '#projects', label: 'Projects' },
-              { href: '#contact', label: 'Contact' },
+              { href: "#about", label: "About" },
+              { href: "#projects", label: "Projects" },
+              { href: "#contact", label: "Contact" },
             ].map((link) => (
               <motion.a
                 key={link.href}
@@ -57,5 +57,5 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
         </motion.div>
       </div>
     </footer>
-  )
-}
+  );
+};
