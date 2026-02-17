@@ -1,18 +1,21 @@
-'use client'
+"use client";
 
-import React from "react"
+import React from "react";
 
-import type { Profile } from '@/types'
-import { AnimatedSection } from '../animated-section'
-import { motion } from 'framer-motion'
+import type { Profile } from "@/types";
+import { AnimatedSection } from "../animated-section";
+import { motion } from "framer-motion";
 
 interface AboutProps {
-  profile: Profile
+  profile: Profile;
 }
 
 export const About: React.FC<AboutProps> = ({ profile }) => {
   return (
-    <AnimatedSection className="scroll-snap-align-start bg-background py-20 sm:py-32" id="about">
+    <AnimatedSection
+      className="scroll-snap-align-start bg-background py-20 sm:py-32"
+      id="about"
+    >
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <motion.div
           className="mb-12"
@@ -65,9 +68,7 @@ export const About: React.FC<AboutProps> = ({ profile }) => {
               <p className="mb-2 text-sm font-semibold text-muted-foreground uppercase tracking-wider">
                 Based In
               </p>
-              <p className="text-3xl font-bold text-foreground">
-                San Francisco, CA
-              </p>
+              <p className="text-3xl font-bold text-foreground">Chennai, TN</p>
             </div>
 
             <div className="rounded-lg border border-muted bg-card p-6">
@@ -82,5 +83,5 @@ export const About: React.FC<AboutProps> = ({ profile }) => {
         </div>
       </div>
     </AnimatedSection>
-  )
-}
+  );
+};
