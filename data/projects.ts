@@ -1,23 +1,14 @@
 import type { Project } from "@/types";
 
-// Add real repo URLs to github; add live demo URL to live when available.
-// For images: put files in public/projects/ and set image: '/projects/your-image.png'
 export const projects: Project[] = [
   {
     id: "project-1",
-    title: "TicketDest — Support Ticket Management System",
-    shortDescription: "Full-stack ticketing platform with RBAC + dashboards",
+    title: "TicketDesk — Support Ticket Management System",
+    shortDescription:
+      "Freelance contract • Full-stack ticketing platform with RBAC + dashboards",
     description:
-      "Built a full-stack ticketing platform to manage support workflows end-to-end: ticket creation, assignment, status tracking, and resolution with role-based access for Admin/Agent/User.",
-    stack: [
-      "Next.js",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL",
-      "Prisma",
-      "Docker",
-      "JWT",
-    ],
+      "Built a full-stack ticketing platform as a freelance/contract project to manage support workflows end-to-end: ticket creation, assignment, status tracking, and resolution with role-based access for Admin/Agent/User.",
+    stack: ["React Router", "TypeScript", "PostgreSQL", "Supabase"],
     features: [
       "Role-based access control (Admin / Agent / User)",
       "Ticket lifecycle management: create, assign, update status, resolve",
@@ -30,8 +21,7 @@ export const projects: Project[] = [
       "Keeping UI state consistent across multiple ticket status transitions",
       "Balancing performance and usability for dashboard views",
     ],
-    github: "https://github.com/VarshaRT07/ticketdest", // Replace with your actual repo URL
-    live: "https://ticketdest-demo.vercel.app", // Replace with your demo URL if available
+    github: "https://github.com/LarchOrg/TicketDesk/",
   },
   {
     id: "project-2",
@@ -39,7 +29,17 @@ export const projects: Project[] = [
     shortDescription: "ML-powered analytics to predict attrition risk factors",
     description:
       "Developed an ML-powered analytics application to identify employee attrition risk factors and deliver predictive insights to help HR teams take preventive action.",
-    stack: ["Python", "Pandas", "Scikit-learn", "Data Visualization"],
+    stack: [
+      "React Router",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "Supabase",
+      "Python",
+      "FastAPI",
+      "FastText Model",
+      "Data Visualization",
+    ],
     features: [
       "Data preprocessing and feature engineering",
       "Predictive modeling with evaluation and iteration",
