@@ -3,8 +3,8 @@
 import React from "react";
 
 import type { Profile } from "@/types";
-import { AnimatedSection } from "../animated-section";
 import { motion } from "framer-motion";
+import { AnimatedSection } from "../animated-section";
 
 interface AboutProps {
   profile: Profile;
