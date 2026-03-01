@@ -45,7 +45,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               src={project.image!}
               alt={project.title}
               fill
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, 752px"
               unoptimized
             />

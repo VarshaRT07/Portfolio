@@ -22,6 +22,7 @@ export const projects: Project[] = [
       "Balancing performance and usability for dashboard views",
     ],
     github: "https://github.com/LarchOrg/TicketDesk/",
+    image: "/ticketDesk.png",
   },
   {
     id: "project-2",
@@ -52,6 +53,7 @@ export const projects: Project[] = [
       "Translating predictions into actionable insights",
     ],
     github: "https://github.com/VarshaRT07/AttriSense", // Replace with your actual repo URL
+    image: "/attrisense.svg",
   },
   {
     id: "project-3",
@@ -73,6 +75,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/VarshaRT07/TimeSnap", 
     live: "https://timesheet-snap.vercel.app/",
+    image: "/timesheet.png",
   },
   {
     id: "project-4",
@@ -108,6 +111,7 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/VarshaRT07/resume-analyzer",
     live: "https://resume-analyzer-gray-kappa.vercel.app/",
+    image: "/resumeAnalyzer.png",
   },
   {
     id: "project-5",
@@ -129,5 +133,6 @@ export const projects: Project[] = [
       "Balancing simple interactions with clear progress visibility",
     ],
     live: "https://habittracker-vn.vercel.app/",
+    image: "/habitTracker.png",
   },
 ];
