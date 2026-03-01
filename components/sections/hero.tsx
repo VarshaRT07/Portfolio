@@ -48,7 +48,10 @@ export const Hero: React.FC<HeroProps> = ({ profile }) => {
   };
 
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-background to-secondary/10">
+    <section
+      id="top"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-background to-secondary/10"
+    >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div

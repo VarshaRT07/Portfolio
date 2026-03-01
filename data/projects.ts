@@ -71,8 +71,8 @@ export const projects: Project[] = [
       "Keeping logic reusable and UI flows frictionless",
       "Ensuring correctness for date computations across locales/timezones",
     ],
-    github: "https://github.com/VarshaRT07/TimeSnap", // Replace with your actual repo URL
-    live: "https://timesheet-snap.vercel.app/", // Replace with your demo URL if available
+    github: "https://github.com/VarshaRT07/TimeSnap", 
+    live: "https://timesheet-snap.vercel.app/",
   },
   {
     id: "project-4",
@@ -108,5 +108,26 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/VarshaRT07/resume-analyzer",
     live: "https://resume-analyzer-gray-kappa.vercel.app/",
+  },
+  {
+    id: "project-5",
+    title: "Habit Tracker - Small actions, big streaks.",
+    shortDescription:
+      "Cute Habit tracker to plan and complete routines by cadence",
+    description:
+      "Built a habit tracker that helps users create habits and manage them by daily, weekly, and monthly cadence. Designed a clean UI to track completion status and keep routines consistent over time.",
+    stack: ["React", "Redux", "Vercel"],
+    features: [
+      "Create and organize habits by daily, weekly, or monthly cadence",
+      "Quick completion toggles with clear status indicators",
+      "Filter and review habits by timeframe for focused tracking",
+      "Responsive layout optimized for routine check-ins",
+    ],
+    challenges: [
+      "Designing a Redux state model that supports recurring schedules",
+      "Keeping UI state consistent when switching between cadences",
+      "Balancing simple interactions with clear progress visibility",
+    ],
+    live: "https://habittracker-vn.vercel.app/",
   },
 ];

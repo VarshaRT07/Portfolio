@@ -28,11 +28,12 @@ export const Navbar: React.FC = () => {
 
   const navItems = useMemo(
     () => [
+      { label: "Home", href: "#top" },
       { label: "About", href: "#about" },
       { label: "Skills", href: "#skills" },
       { label: "Experience", href: "#experience" },
       { label: "Projects", href: "#projects" },
-      { label: "Blog", href: "#blog" },
+      // { label: "Blog", href: "#blog" },
       { label: "Contact", href: "#contact" },
     ],
     [],

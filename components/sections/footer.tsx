@@ -33,8 +33,12 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
           {/* Quick links */}
           <div className="flex gap-6">
             {[
+              { href: "#top", label: "Home" },
               { href: "#about", label: "About" },
+              { href: "#skills", label: "Skills" },
+              { href: "#experience", label: "Experience" },
               { href: "#projects", label: "Projects" },
+              // { href: "#blog", label: "Blog" },
               { href: "#contact", label: "Contact" },
             ].map((link) => (
               <motion.a
